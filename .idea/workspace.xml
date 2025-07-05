@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fee2e9e-f5cf-41ae-a7c8-95874d761219" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/data_kolbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gemini/gemini1.1.1_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gemini/gemini_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_mysql_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_mysql_data/db_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/crawl4ai_test/crawl4ai_beautifulsoup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo111111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.17/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.17/packageA/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.17/packageA/moduleA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.18/111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.18/demo_deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.18/demo_qwen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.18/demo_qwen2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/333.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/555.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/demo2.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/demo3.19.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/create_caching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/out.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/page_content2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/save_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/upload_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/upload_files2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/upload_files3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/kimi/use_caching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.19/network_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo3.20/testlogout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo6.19/datatest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/aha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_gpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_gpt/111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_gpt/4.21/demo_gpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_gpt/extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_gpt/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_prompt/googleSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_prompt/googleSearch2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_prompt/output1/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/demo_v2ray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/333.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini1.1.1_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini1.1_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini1.1_second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini1.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini2.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini4.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini_second_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gemini_second_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/genimi4.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/gpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/aha/1aha个人理财app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/aha/1aha挖掘机玩具.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/本地/1本地-DHEA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/本地/1本地-书籍《The Let Them Theory》.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/本地/1本地-厨房秤.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/本地/1本地-氨糖软骨素.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/first/本地/1本地-香水.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha个人理财app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha充电器.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha刮痧板.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha制冰机.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha厨房肉类温度计.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha吸管盖.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha拖鞋.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha猫用跳蚤药.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha痘痘贴.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha眼部精华.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha磁吸平板壳.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha礼物.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha筋膜抢.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha镜头.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/2aha项链.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha厨房秤.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha厨房秤1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha氨糖软骨素.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha漱口水.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha玻璃杯.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha香水1.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/aha香水1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/cluster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/cluster2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/cluster_result2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/aha/cluster_type_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/111.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-个人理财APP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-书籍《The Let Them Theory》.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-厨房秤.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-吸管盖.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-多功能护肤品.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-氨糖软骨素.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-氨糖软骨素2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-漱口水.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-玻璃清洁湿巾.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-筋膜抢.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/result/second/本地/2本地-鞋垫.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gemini/second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/gpt2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_prompt/url.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_达人类型/feishu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_达人类型/gemini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/demo_达人类型/gemini2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag3.27/tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag3.28/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag3.28/demo_flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag3.8/tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_3.29/deepseek/demo_tag_local_deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_3.29/deepseek/store_personal_tags.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_3.29_2/demo_tag_local_deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_3.29_2/store_personal_tags.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.3/chatGPT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.3/cutfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.3/local_qwq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.3/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.3/test_kimi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.7/deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_4.7/local_qwq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tag_feishu/read_feishu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/doubao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/doubao_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/gemini2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/gemini_aha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/grok.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/kimi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/qwen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/wenxinyiyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tags_all/yuanbao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/tishici.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tag/demo.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2zFePMhv1LCtPfQZsfX7wbTiHTq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.data.executor": "Run",
+    "Python.data_faker2.executor": "Run",
+    "Python.data_product.executor": "Run",
+    "Python.gemini1.1.1_first.executor": "Run",
+    "Python.gemini_test.executor": "Run",
+    "Python.getDataMysql.executor": "Run",
+    "Python.get_country (1).executor": "Run",
+    "Python.get_country (2).executor": "Run",
+    "Python.invalid_data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/gmj/workSpaces/workSpaces_pycharm/TestData"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\gemini" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\mysql" />
+      <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\标签导入\有效数据" />
+      <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\私有网红" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.data_faker2">
+    <configuration name="data_faker2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_kolbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/私有网红" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/私有网红/data_faker2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gemini_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_kolbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gemini" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gemini/gemini_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_country (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_kolbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql/get_country.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_country (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_kolbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_mysql_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_mysql_data/get_country.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_country" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_kolbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\mysql\get_country.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.data_faker2" />
+        <item itemvalue="Python.get_country (2)" />
+        <item itemvalue="Python.get_country (1)" />
+        <item itemvalue="Python.get_country" />
+        <item itemvalue="Python.gemini_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8fee2e9e-f5cf-41ae-a7c8-95874d761219" name="更改" comment="" />
+      <created>1751331224212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751331224212</updated>
+    </task>
+    <servers />
+  </component>
+</project>
