@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fee2e9e-f5cf-41ae-a7c8-95874d761219" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/data_kolbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gemini/gemini1.1.1_first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gemini/gemini_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_mysql_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_mysql_data/db_config.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/crawl4ai_test/crawl4ai_beautifulsoup.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/demo.json" afterDir="false" />
@@ -188,7 +178,7 @@
     "Python.get_country (2).executor": "Run",
     "Python.invalid_data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/gmj/workSpaces/workSpaces_pycharm/TestData"
   }
 }]]></component>
