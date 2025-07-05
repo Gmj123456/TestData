@@ -6,4 +6,4 @@ DB_CONFIG = {
     "password": "root",
     "port": 3706,
     "database": "influencer_brand_test_v3"
-}
+}git 
