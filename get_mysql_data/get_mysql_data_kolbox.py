@@ -26,3 +26,14 @@ class DataRepository:
         except Error as e:
             print(f"数据库错误: {e}")
             return []
+
+    def fetch_contact_email(self):
+        """获取顾问建联邮箱列表，返回 Python 列表"""
+        try:
+            with connect(**self.config) as connection:
+                with connection.cursor() as cursor:
+                    cursor.execute("SELECT contact_email FROM store_user_contact_email")
+                    return [row[0] for row in cursor.fetchall() if row[0] is not None]
+        except Error as e:
+            print(f"数据库错误: {e}")
+            return []

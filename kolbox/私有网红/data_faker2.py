@@ -4,7 +4,7 @@ from faker import Faker
 from faker.providers import BaseProvider
 import pandas as pd  # 用于导出Excel
 
-from get_mysql_data.get_mysql_data import DataRepository
+from get_mysql_data.get_mysql_data_kolbox import DataRepository
 
 # 初始化Faker
 faker = Faker()

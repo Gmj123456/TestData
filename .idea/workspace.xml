@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fee2e9e-f5cf-41ae-a7c8-95874d761219" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/get_mysql_data/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/crawl4ai_test/crawl4ai_beautifulsoup.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/demo.json" afterDir="false" />
@@ -141,6 +142,14 @@
       <change afterPath="$PROJECT_DIR$/../demo1/tishici.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tag/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_kolbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_mysql_data/db_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_mysql_data/db_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_mysql_data/get_mysql_data_erp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_mysql_data/get_mysql_data_kolbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_mysql_data/get_mysql_data_kolbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" beforeDir="false" afterPath="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +177,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python 测试.Python tests for test.TestDataRepository.executor": "Run",
+    "Python 测试.Python tests for test.TestDataRepository.test_fetch_brands.executor": "Run",
+    "Python 测试.Python tests for test.TestDataRepository.test_fetch_countries.executor": "Run",
     "Python.data.executor": "Run",
     "Python.data_faker2.executor": "Run",
     "Python.data_product.executor": "Run",
@@ -179,7 +191,8 @@
     "Python.invalid_data.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/gmj/workSpaces/workSpaces_pycharm/TestData"
+    "last_opened_file_path": "D:/gmj/workSpaces/workSpaces_pycharm/TestData",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -192,9 +205,9 @@
       <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\私有网红" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_faker2">
+  <component name="RunManager" selected="Python 测试.Python tests for test.TestDataRepository.test_fetch_brands">
     <configuration name="data_faker2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_kolbox" />
+      <module name="TestData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,52 +228,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gemini_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_kolbox" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gemini" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gemini/gemini_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_country (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_kolbox" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql/get_country.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="get_country (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_kolbox" />
+      <module name="TestData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,35 +250,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_country" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_kolbox" />
+    <configuration name="Python tests for test.TestDataRepository" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_mysql_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\mysql\get_country.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestDataRepository&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestDataRepository.test_fetch_brands" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_mysql_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestDataRepository.test_fetch_brands&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.TestDataRepository.test_fetch_countries" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_mysql_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestDataRepository.test_fetch_countries&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_brands" />
+        <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_countries" />
+        <item itemvalue="Python 测试.Python tests for test.TestDataRepository" />
         <item itemvalue="Python.data_faker2" />
         <item itemvalue="Python.get_country (2)" />
-        <item itemvalue="Python.get_country (1)" />
-        <item itemvalue="Python.get_country" />
-        <item itemvalue="Python.gemini_test" />
       </list>
     </recent_temporary>
   </component>
