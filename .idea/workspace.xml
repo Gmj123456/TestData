@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fee2e9e-f5cf-41ae-a7c8-95874d761219" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts_20250707_144734.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts_20250707_161341.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/crawl4ai_test/crawl4ai_beautifulsoup.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo1/demo.json" afterDir="false" />
@@ -143,11 +143,12 @@
       <change afterPath="$PROJECT_DIR$/../demo5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tag/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_mysql_data/get_mysql_data_kolbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_mysql_data/get_mysql_data_kolbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_mysql_data/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_mysql_data/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" beforeDir="false" afterPath="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/data_faker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" beforeDir="false" afterPath="$PROJECT_DIR$/kolbox/私有网红/data_social_media_accounts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts_20250707_144734.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kolbox/私有网红/social_media_accounts_20250707_152240.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +189,7 @@
     "Python.data.executor": "Run",
     "Python.data_faker2.executor": "Run",
     "Python.data_product.executor": "Run",
+    "Python.data_social_media_accounts (1).executor": "Run",
     "Python.gemini1.1.1_first.executor": "Run",
     "Python.gemini_test.executor": "Run",
     "Python.getDataMysql.executor": "Run",
@@ -210,8 +212,8 @@
       <recent name="D:\gmj\workSpaces\workSpaces_pycharm\data_kolbox\私有网红" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_faker2">
-    <configuration name="data_faker2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.data_social_media_accounts (1)">
+    <configuration name="data_social_media_accounts (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,7 +226,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kolbox/私有网红/data_faker2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kolbox/私有网红/data_social_media_accounts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,19 +235,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestDataRepository.test_fetch_brands" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="data_social_media_accounts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_mysql_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kolbox/私有网红" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestDataRepository.test_fetch_brands&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="D:\gmj\workSpaces\workSpaces_pycharm\TestData\kolbox\私有网红\data_social_media_accounts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test.TestDataRepository.test_fetch_category" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -295,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_faker2" />
+        <item itemvalue="Python.data_social_media_accounts (1)" />
+        <item itemvalue="Python.data_social_media_accounts" />
         <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_category" />
         <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_contact_email_by_username" />
         <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_contact_email_list" />
-        <item itemvalue="Python 测试.Python tests for test.TestDataRepository.test_fetch_brands" />
       </list>
     </recent_temporary>
   </component>

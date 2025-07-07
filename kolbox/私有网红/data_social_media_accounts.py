@@ -57,14 +57,33 @@ class SocialMediaProvider(BaseProvider):
         "场景": ["圣诞节", "居家办公", "户外冒险", "职场生活", "校园生活", "旅行", "美食制作", "宠物日常"]
     }
 
-    def label(self, TAG_CATEGORIES=TAG_CATEGORIES):
-        """从不同类型中随机生成标签"""
-        # 随机选择标签类型
-        if TAG_CATEGORIES is None:
-            TAG_CATEGORIES = TAG_CATEGORIES
-        category = random.choice(list(TAG_CATEGORIES.keys()))
-        # 从选中的类型中随机选择标签
-        return random.choice(TAG_CATEGORIES[category])
+    def label(self, max_n=None, TAG_CATEGORIES=TAG_CATEGORIES):
+        """
+        从不同类型中随机生成0到max_n个标签，并用英文逗号连接
+
+        Args:
+            max_n: 最大标签数量，默认为None（自动计算所有标签总数）
+            TAG_CATEGORIES: 标签类别字典
+        """
+        all_tags = []
+        for category in TAG_CATEGORIES.values():
+            all_tags.extend(category)
+
+        # 计算最大可能的标签数
+        max_possible = len(all_tags)
+
+        # 如果未指定max_n或max_n超过最大可能数，则设为最大可能数
+        if max_n is None or max_n > max_possible:
+            max_n = max_possible
+
+        # 随机选择0到max_n之间的标签数量
+        n = random.randint(0, max_n)
+
+        # 随机选择n个标签并去重
+        selected_tags = random.sample(all_tags, n) if n > 0 else []
+
+        # 用英文逗号连接标签列表
+        return ",".join(selected_tags)
 
     def generate_tiktok_username(self):
         """生成符合TikTok规则的用户名（只含字母数字下划线英文点）"""
@@ -242,6 +261,7 @@ if __name__ == "__main__":
     print("\n" + "=" * 50)
     count = 50  # 生成50个账号
     advisor = "gw1 "  # 必须指定顾问名
+    max_labels = None  # 不限制最大标签数，将随机生成0到所有标签总数之间的任意数量
     print(f"批量生成{count}个账号并保存到Excel...")
     batch = faker.generate_batch(count, advisor)
 
