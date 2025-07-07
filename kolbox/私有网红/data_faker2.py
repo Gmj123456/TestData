@@ -9,25 +9,22 @@ from get_mysql_data.get_mysql_data_kolbox import DataRepository
 # 初始化Faker
 faker = Faker()
 
-
 # 创建存储库实例
 repo = DataRepository()
 
-class SocialMediaProvider(BaseProvider):
-    """社交媒体账号生成器，符合各平台规则"""
 
-    # 从数据库中取值：国家、品牌、建联邮箱、类目
+class SocialMediaProvider(BaseProvider):
+    """私有网红账号生成器，符合各平台规则"""
+    # 从数据库已有固定值中随机选取：国家、品牌、建联邮箱、类目
     def country(self):
-        """生成随机国家/地区"""
-        country_list = repo.fetch_countries_as_list()
+        """随机选择国家"""
+        country_list = repo.fetch_countries()
         return random.choice(country_list)
 
     def brand(self):
-        """生成随机品牌"""
-
-        brand_list = repo.fetch_brands_as_list()
+        """随机选择品牌"""
+        brand_list = repo.fetch_brands()
         return random.choice(brand_list)
-
 
     def gender(self):
         """生成随机性别"""
@@ -46,11 +43,28 @@ class SocialMediaProvider(BaseProvider):
         }
         return random.choice(content_map[platform])
 
-    def label(self):
-        """生成随机标签"""
-        return random.choice(["hometip", "decoration", "setupreview", "hacks"])
+    # 定义标签类型及其对应的标签列表
+    TAG_CATEGORIES = {
+        "职业": ["艺术家", "编辑", "训狗师", "医生", "演说家", "发型师", "心理师", "电视主持人", "房产中介", "乐队歌手",
+                 "小明星", "教程创作者"],
+        "兴趣爱好": ["打猎", "游泳", "瑜伽", "吉他", "编织", "游戏", "咖啡", "美食", "穿搭", "美妆", "护肤", "园艺",
+                     "DIY"],
+        "产品类型": ["eufy摄像头", "wlwe收纳柜", "ekouaer女士睡衣", "假发", "miniso名创", "rainpoint花园浇灌",
+                     "diy工具", "dreame洗地机", "inia脱毛仪", "trihill音箱"],
+        "生活方式": ["亚裔", "同性恋", "跨性别", "双胞胎", "单亲家庭", "基督教", "living alone", "极简主义",
+                     "可持续生活"],
+        "内容形式": ["搞笑/抽象", "生活分享", "情感分享", "视频剪辑", "经验干货", "街头采访", "开箱测评", "装修日记"],
+        "场景": ["圣诞节", "居家办公", "户外冒险", "职场生活", "校园生活", "旅行", "美食制作", "宠物日常"]
+    }
 
-
+    def label(self, TAG_CATEGORIES=TAG_CATEGORIES):
+        """从不同类型中随机生成标签"""
+        # 随机选择标签类型
+        if TAG_CATEGORIES is None:
+            TAG_CATEGORIES = TAG_CATEGORIES
+        category = random.choice(list(TAG_CATEGORIES.keys()))
+        # 从选中的类型中随机选择标签
+        return random.choice(TAG_CATEGORIES[category])
 
     def generate_tiktok_username(self):
         """生成符合TikTok规则的用户名（只含字母数字下划线英文点）"""
@@ -99,8 +113,34 @@ class SocialMediaProvider(BaseProvider):
         number = random.randint(100, 999)
         return f"{random.choice(phrases)}{number}"
 
-    def generate_account(self, platform=None):
-        """生成单个账号，可指定平台"""
+    def jianlian_email(self, advisor_name: str):
+        """
+        根据指定顾问名获取建联邮箱，若未指定则抛出异常
+
+        Args:
+            advisor_name: 顾问用户名（必需）
+
+        Returns:
+            对应的建联邮箱地址
+
+        Raises:
+            ValueError: 未提供顾问名或未找到邮箱记录
+        """
+        if not advisor_name:
+            raise ValueError("必须指定顾问名(advisor_name)才能获取建联邮箱")
+
+        # 根据用户名获取邮箱列表
+        emails = repo.fetch_contact_email(advisor_name)
+        if not emails:
+            raise ValueError(f"未找到顾问 '{advisor_name}' 的邮箱记录")
+
+        return random.choice(emails)
+
+    def generate_account(self, platform=None, advisor_name: str = None):
+        """生成单个账号，必须指定顾问名"""
+        if not advisor_name:
+            raise ValueError("generate_account方法必须指定advisor_name参数")
+
         if not platform:
             platform = self.platform()
 
@@ -112,17 +152,17 @@ class SocialMediaProvider(BaseProvider):
         elif platform == "IG":
             username = self.generate_instagram_username()
         elif platform == "YT":
-            username = self.generate_youtube_username()  # 移除emoji选项
+            username = self.generate_youtube_username()
         else:
             username = "invalid_user"
 
         email = self.generate_email()
-        jianlian_email = random.choice(["bbbb@qq.com", "19999999@qq.com"])
+        jianlian_email = self.jianlian_email(advisor_name)
         signing_fee = round(random.uniform(1000, 10000), 2)
         note = self.generate_random_note()
 
-        # 类目选项和生成逻辑
-        category_options = ["美妆个护", "服装配饰"]
+        # 获取类目选项
+        category_options = repo.fetch_category()
 
         # 确保至少有一个类目
         category_count = random.randint(1, 5)
@@ -151,16 +191,16 @@ class SocialMediaProvider(BaseProvider):
             "类目5": category_fields[4]
         }
 
-    def generate_batch(self, count, platform=None):
-        """批量生成账号"""
-        return [self.generate_account(platform) for _ in range(count)]
+    def generate_batch(self, count, advisor_name: str, platform=None):
+        """批量生成账号，必须指定顾问名"""
+        return [self.generate_account(platform, advisor_name) for _ in range(count)]
 
 
 # 注册自定义提供者
 faker.add_provider(SocialMediaProvider)
 
 
-def save_to_excel(accounts, filename="social_media_accounts1.xlsx"):
+def save_to_excel(accounts, filename="social_media_accounts.xlsx"):
     """将账号数据保存到Excel文件，排除平台列"""
     if not accounts:
         print("没有数据可保存")
@@ -182,10 +222,17 @@ def save_to_excel(accounts, filename="social_media_accounts1.xlsx"):
 
     df = df[columns_order]
 
+    # 在文件名中添加时间戳
+    import datetime
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    # 修改文件名格式，在基本名和扩展名之间插入时间戳
+    base_name, ext = filename.rsplit('.', 1)
+    timestamped_filename = f"{base_name}_{timestamp}.{ext}"
+
     # 保存到Excel
     try:
-        df.to_excel(filename, index=False)
-        print(f"数据已成功保存到 {filename}")
+        df.to_excel(timestamped_filename, index=False)
+        print(f"数据已成功保存到 {timestamped_filename}")
     except Exception as e:
         print(f"保存文件时出错: {e}")
 
@@ -194,8 +241,9 @@ if __name__ == "__main__":
     # 示例：批量生成账号并保存到Excel
     print("\n" + "=" * 50)
     count = 50  # 生成50个账号
+    advisor = "gw1 "  # 必须指定顾问名
     print(f"批量生成{count}个账号并保存到Excel...")
-    batch = faker.generate_batch(count)
+    batch = faker.generate_batch(count, advisor)
 
     # 保存到Excel
     save_to_excel(batch, "social_media_accounts.xlsx")
